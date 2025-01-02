@@ -3,7 +3,7 @@ import streamlit as st
 
 st.subheader("Code4Good - Demographic Data & Public Website for Allston-Brighton")
 
-st.image("assets/StyleSwitching.png", caption="Allston-Brighton website")
+st.image("assets/C4g.png", caption="Allston-Brighton website")
 
 st.markdown(
     """
