@@ -1,5 +1,6 @@
 import streamlit as st
 
+st.title("Projects")
 
 st.subheader("Code4Good - Demographic Data & Public Website for Allston-Brighton")
 

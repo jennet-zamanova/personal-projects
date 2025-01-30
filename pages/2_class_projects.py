@@ -1,5 +1,6 @@
 import streamlit as st 
 
+st.title("Projects")
 # Tabs for navigation
 tab1, tab2, tab3 = st.tabs(["2024-2025", "2023-2024", "2022-2023"])
 
@@ -58,6 +59,31 @@ with tab1:
         together with your friend as a raccoon and a cat to distract people and steal as
         much trash as possible without getting caught by the humans.
     """
+    )
+
+    st.subheader("6.S093 - How to ship almost anything with AI")
+
+    st.markdown("### [DishIQ](https://dish-iq.streamlit.app/)")
+
+    st.image("assets/DishIQ.png", caption="DishIQ example with menu")
+
+    st.markdown(
+"""
+__DishIQ__ is an innovative app that transforms how you navigate menus. Here's what it does:
+
+__Extract Key Details__
+Using advanced AI, DishIQ scans restaurant menus to extract:
+- _Ingredients_: Know exactly what's in each dish.  
+- _Prices_: Stay within your budget effortlessly.  
+- _Dish Images_: If unavailable, it generates mouthwatering, realistic dish visuals to help you decide.  
+
+__Tailored Recommendations__
+DishIQ takes dietary restrictions seriously. Whether you're gluten-free, vegan, allergic to nuts, or simply avoiding certain ingredients, the app:
+
+- _Flags_ potential allergens and cross-contamination risks.  
+- Provides _questions to ask_ the waiter for clarity on preparation methods.  
+- _Highlights_ dishes that fit your preferences while warning you about risky ones.  
+"""
     )
 
     st.subheader("More To Come...")

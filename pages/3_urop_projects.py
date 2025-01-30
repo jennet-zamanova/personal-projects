@@ -1,5 +1,6 @@
 import streamlit as st
 
+st.title("Projects")
 # Tabs for navigation
 tab1, tab2, tab3 = st.tabs(["2024-2025", "2023-2024", "2022-2023"])
 
@@ -10,8 +11,9 @@ with tab1:
 
     st.markdown("Implemented light/dark mode per Material Design standards, followed by user testing to optimize experience.")
 
-    # st.subheader("Multiple Screens for Aptly")
+    st.subheader("Multiple Screens for Aptly")
 
+    st.markdown("[Research Paper](https://www.semanticscholar.org/paper/Aptly%3A-Making-Mobile-Apps-from-Natural-Language-Patton-Kim/c659d7187c8d8a18ff3e2846046fcde6a942df57#citing-papers)")
 
 
 with tab2:
