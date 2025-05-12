@@ -1,10 +1,35 @@
-import streamlit as st 
+import streamlit as st
 
 st.title("Projects")
 # Tabs for navigation
 tab1, tab2, tab3 = st.tabs(["2024-2025", "2023-2024", "2022-2023"])
 
 with tab1:
+
+    st.subheader("6.c35 - Interactive Data Visualization & Society")
+
+    st.markdown("### [Housing4All](https://hap196.github.io/Housing4All2/)")
+
+    st.image("assets/Housing4All.png",
+             caption="Housing4All text visualization page")
+
+    st.markdown(
+        """
+Boston faces a severe affordable housing crisis. _Half of all renters are rent-burdened_, and only one-third of residents own their homes. 
+While the Boston Zoning Code aims to promote appropriate land use and resident welfare, it's widely criticized as _bloated, outdated, and inequitable_. 
+
+Our __Housing4All__ project analyzes how Boston’s zoning policies impact affordable housing access by making the Boston Redevelopment Authority’s amendments transparent and analyzable. 
+Currently, these critical policy changes exist only as scattered PDFs, making it nearly impossible to track patterns or impacts.
+
+Our interactive visualization tool allows you to:
+- Filter amendments by housing and zoning topics to see which areas are most affected
+- Examine how specific amendments impact housing construction in targeted districts
+- View demographic data to understand who is most affected by these policy changes
+
+By connecting zoning amendments with housing outcomes and demographics, we aim to support advocacy groups who want to _track_ policy changes and _visualize_ 
+the real-world impacts of zoning on Boston’s communities.
+"""
+    )
 
     st.subheader("6.1040 - Software Design 1")
 
@@ -30,7 +55,8 @@ with tab1:
 
     st.image("assets/Craftfolio.png", caption="Craftfolio main page")
 
-    st.markdown("[Demo Video](https://drive.google.com/file/d/1camVrlaDj6gnJt0DmCCHpwG-ir39snW0/view)")
+    st.markdown(
+        "[Demo Video](https://drive.google.com/file/d/1camVrlaDj6gnJt0DmCCHpwG-ir39snW0/view)")
 
     st.markdown(
         """
@@ -49,7 +75,8 @@ with tab1:
 
     st.subheader("6.073 - Creating Video Games")
 
-    st.markdown("### [Trash Bandits](https://ashketchmm.itch.io/trash-bandits)")
+    st.markdown(
+        "### [Trash Bandits](https://ashketchmm.itch.io/trash-bandits)")
 
     st.image("assets/TrashBandits.png", caption="Trash Bandits main page")
 
@@ -68,7 +95,7 @@ with tab1:
     st.image("assets/DishIQ.png", caption="DishIQ example with menu")
 
     st.markdown(
-"""
+        """
 __DishIQ__ is an innovative app that transforms how you navigate menus. Here's what it does:
 
 __Extract Key Details__
@@ -86,6 +113,23 @@ DishIQ takes dietary restrictions seriously. Whether you're gluten-free, vegan, 
 """
     )
 
+    st.subheader("CMS.590 - Computer Games")
+
+    st.markdown(
+        "### Tinker Tales")
+
+    st.image("assets/TinkerTales.png", caption="Tinker Tales main page")
+
+    st.markdown(
+        """
+        __Tinker Tales__ is a digital creative writing game powered by Large Language Models (LLMs) where students solve challenges by 
+        writing their own _creative_ and _descriptive_ solutions. The game is targeted towards 5th-7th grade students and is intended to teach students how to
+          write _compelling_ narratives using __descriptive details, vivid sensory details, and clear event sequences__. Players type into an open text box to describe actions, 
+          spawn items, and describe their solutions, which will influence the game world around them. Students can have fun building their own solutions while practicing 
+          improvisation, critical thinking skills, and learning how to write a story from a bottom-up approach.
+    """
+    )
+
     st.subheader("More To Come...")
 
 with tab2:
@@ -101,16 +145,17 @@ Get district-level characteristics for CA and do matching on districts to find t
         [Repo](https://github.com/farinliani/17.853)
     """
     )
-    
 
     st.subheader("6.9620 - WebLab")
 
-    st.markdown("### [Ancient Adventures](https://ancient-adventures.onrender.com)")
-
-    st.image("assets/AncientAdventures.png", caption="Ancient Adventures main page")
-    
     st.markdown(
-    """__Ancient Adventures__ is a vibrant and engaging website designed to help travelers explore the historic sites of Central Asia. 
+        "### [Ancient Adventures](https://ancient-adventures.onrender.com)")
+
+    st.image("assets/AncientAdventures.png",
+             caption="Ancient Adventures main page")
+
+    st.markdown(
+        """__Ancient Adventures__ is a vibrant and engaging website designed to help travelers explore the historic sites of Central Asia. 
     The platform features detailed guides to ancient landmarks, practical travel tips, and curated insights into the region’s rich culinary traditions.
     """
     )
@@ -120,12 +165,12 @@ Get district-level characteristics for CA and do matching on districts to find t
     st.subheader("6.2000 - Circuits and Electronics")
 
     st.markdown(
-    "Digital to Analog converter, Moth-car, Bass Boost, Morse Code Transmitter/Detector"
+        "Digital to Analog converter, Moth-car, Bass Boost, Morse Code Transmitter/Detector"
     )
 
 with tab3:
 
     st.subheader("6.S092 - The Art and Science of PCB Design")
 
-    st.image("https://pcb.mit.edu/static/gallery/0006.jpg", caption="Bluetooth speaker!!!")
-    
+    st.image("https://pcb.mit.edu/static/gallery/0006.jpg",
+             caption="Bluetooth speaker!!!")
