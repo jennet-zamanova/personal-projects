@@ -31,23 +31,23 @@ the real-world impacts of zoning on Boston’s communities.
 """
     )
 
-    st.subheader("6.1040 - Software Design 1")
+    # st.subheader("6.1040 - Software Design 1")
 
-    st.markdown("### [TrueTide](https://truetide-frontend.vercel.app/)")
+    # st.markdown("### [TrueTide](https://truetide-frontend.vercel.app/)")
 
-    st.image("assets/Truetide.png", caption="TrueTide main page")
+    # st.image("assets/Truetide.png", caption="TrueTide main page")
 
-    st.markdown(
-        """
-        __TrueTide__ is designed for _international students_ navigating new environments and cultures. 
-        Adjusting to life in a new country can be overwhelming, and students often struggle to find accurate, culturally relevant information. 
-        __TrueTide__ helps bridge that gap by providing a diverse range of perspectives on everything from national policies to local slang and customs.
+    # st.markdown(
+    #     """
+    #     __TrueTide__ is designed for _international students_ navigating new environments and cultures. 
+    #     Adjusting to life in a new country can be overwhelming, and students often struggle to find accurate, culturally relevant information. 
+    #     __TrueTide__ helps bridge that gap by providing a diverse range of perspectives on everything from national policies to local slang and customs.
 
-        The app's key feature is its ___DualView___, which allows users to see opposing viewpoints on controversial topics, fostering critical thinking. 
-        To support responsible information-sharing, TrueTide offers easy-to-use __fact-checking__ tools and recommends relevant _Citations_ to users as they post content,
-        making it simple to back up information. TrueTide offers a trusted and culturally aware platform, easing the transition for students as they learn more about their new surroundings.
-    """
-    )
+    #     The app's key feature is its ___DualView___, which allows users to see opposing viewpoints on controversial topics, fostering critical thinking. 
+    #     To support responsible information-sharing, TrueTide offers easy-to-use __fact-checking__ tools and recommends relevant _Citations_ to users as they post content,
+    #     making it simple to back up information. TrueTide offers a trusted and culturally aware platform, easing the transition for students as they learn more about their new surroundings.
+    # """
+    # )
 
     st.subheader("6.1040 - Software Design 2")
 
